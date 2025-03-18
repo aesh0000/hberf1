@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/* Sub-navbar */
+
+.sub-navbar{
+  background-color: red;
+  color: white;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.sub-navbar .social-icons{
+   display: flex;
+   gap: 15px;
+}
+
+.sub-navbar i{
+  font-size: 1.4rem;
+  color: white;
+}
+
+/* Navbar */
+
+.logo img{
+  width: 100px;
+}
+
+
+
